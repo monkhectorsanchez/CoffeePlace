@@ -121,5 +121,64 @@ html {
   z-index: 100;
   text-align: center;
 }
+
+.main-heading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  font-weight: 300;
+  color: #c49b63;
+}
+
+.banner h1 {
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 2rem 0;
+  line-height: 1.5;
+  letter-spacing: 0.2;
+}
+
+.banner p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  width: 60rem;
+  margin: 0 auto 2rem auto;
+  letter-spacing: 0.1rem;
+}
+
+.banner-btn {
+  width: 12rem;
+  height: 5.5rem;
+  cursor: pointer;
+  margin: 0.1rem;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.banner-btn-1 {
+  background-color: #c49b63;
+  border: none;
+  color: #222;
+}
+
+.banner-btn-1:hover {
+  background-color: transparent;
+  color: #c49b63;
+  border: 0.1rem solid #c49b63;
+}
+
+.banner-btn-2 {
+  background-color: transparent;
+  border: 0.1rem solid #fff;
+  color: #fff;
+}
+
+.banner-btn-2:hover {
+  background-color: #c49b63;
+  color: #222;
+  border: 0.1rem solid #c49b63;
+}
 /* End of Landing */
 /* End of Container */
