@@ -221,6 +221,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
   border: 0.2rem solid #fff;
 }
+
 .landing-contact {
   position: absolute;
   top: 85%;
@@ -232,6 +233,33 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
   justify-content: space-evenly;
   align-items: center;
   color: #fff;
+}
+
+.details {
+  display: flex;
+}
+
+.details i {
+  font-size: 2rem;
+  color: #c49b63;
+  margin-right: 2rem;
+}
+
+.details div {
+  display: flex;
+  flex-direction: column;
+}
+
+.details div span:nth-child(1) {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.details div span:nth-child(2) {
+  font-size: 1.4rem;
+  color: #bbb;
+  width: 30rem;
 }
 /* End of Landing */
 /* End of Container */
