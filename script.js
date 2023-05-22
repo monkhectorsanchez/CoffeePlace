@@ -11,3 +11,11 @@ const swiper = new Swiper('.swiper', {
     clickable:true,
   },
 });
+
+let menu = document.querySelector('.menu')
+let nums = document.querySelectorAll('.num')
+let start = false
+
+const startCount = (el) => {
+  let max = el.dataset.val
+}
